@@ -29,9 +29,19 @@ docker build -t zgwmike/akka-sbt github.com/zgwmike/akka-sbt
 ## Usage ##
 
 ```
-docker run -it --rm zgwmike/akka-sbt
+docker run -it --rm zgwmike/akka-sbt sbt clean compile
 ```
 
+## Versions included ##
+
+Scala: 2.12.6
+Sbt: 1.1.6
+Akka: 2.5.13
+Akka-http: 10.1.3
+Akka-management: 0.14.0
+Slick: 3.2.1
+Kamon: 1.1.0
+Akka-down-resolver: 1.2.4
 
 ## Contribution policy ##
 
